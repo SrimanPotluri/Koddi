@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<script src="Non-Empty.js"></script>
+
+
+<style>
+
+  body{
+      background-color: #80ced6;
+  }
+
+
+  .centered-form{
+  	margin-top: 100px;
+  }
+
+  .centered-form .panel{
+  	background: rgba(255, 255, 255, 0.8);
+  	box-shadow: rgba(0, 0, 0, 0.3) 100px 100px 100px;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+        <div class="row centered-form">
+        	<div class="panel panel-default">
+
+        		<div class="panel-heading">
+			    		<h3 class="panel-title">WELCOME TO YOUR TWEET <small></small></h3>
+			 			</div>
+
+            <form name="form1" action="" onsubmit="return validateForm()" method="post">
+			 			<div class="panel-body">
+			    					<div class="form-group">
+			                <input type="text" name="user_name" id="user_name" class="form-control input-sm" placeholder="User name"><br>
+			    						<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password"><br>
+			    					</div>
+			    			<br>
+                <input type="submit" value="Login" class="btn btn-info btn-block">
+              </form>
+
+                <form action="NewUser.html"><input type="submit" value="New Login" class="btn btn-info btn-block"></form>
+            </div>
+
+          </div>
+      </div>
+    </div>
+</body>
+</html>
